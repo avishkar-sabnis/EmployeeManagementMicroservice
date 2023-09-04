@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/EmployeeManagement
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Mangesh@09
+
+  application:
+    name: EmployeeService
+
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: MYSQL
+
+
+server:
+  port: 8181
