@@ -3,6 +3,9 @@ package com.EmployeeManagement.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import java.util.Optional;
 
 @Service
 public class EmployeeService {
@@ -10,6 +13,14 @@ public class EmployeeService {
 
     @Autowired
     EmployeeDAO employeeDAO;
+
+    @Autowired
+    FeignConfigInsurance feignConfigInsurance;
+    @Autowired
+    FeignConfig feignConfig;
+
+    @Autowired
+    RestTemplate restTemplate;
 
     public Employee createEmployee(Employee employee) {
         return employeeDAO.save(employee);
@@ -21,7 +32,15 @@ public class EmployeeService {
     }
 
     public Employee getEmployeeById(int employeeId) {
-        return employeeDAO.findById(employeeId).get();
+
+
+        Salary salary =  feignConfig.getSalaryById(employeeId);
+        Insurance insurance = feignConfigInsurance.getInsuranceById(employeeId);
+        Employee employee = employeeDAO.findById(employeeId).get();
+        employee.setEmployeeSalary(salary.getEmployeeSalary());
+        employee.setInsurancePremium(insurance.getInsurancePremium());
+
+        return employee;
     }
 
     public Employee updateEmployeeDetails(Employee newEmployeeData,int employeeId) {

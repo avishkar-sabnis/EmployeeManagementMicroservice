@@ -24,7 +24,7 @@ public class InsuranceController {
     }
 
     @GetMapping("/ShowInsuranceById/{insuranceId}")
-    public Optional<Insurance> getInsuranceById(@PathVariable int insuranceId){
+    public Insurance getInsuranceById(@PathVariable int insuranceId){
         return insuranceService.getInsuranceById(insuranceId);
     }
 

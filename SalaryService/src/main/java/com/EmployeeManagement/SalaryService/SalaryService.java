@@ -3,6 +3,8 @@ package com.EmployeeManagement.SalaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class SalaryService {
 
@@ -21,5 +23,9 @@ public class SalaryService {
 
     public void deleteSalary(int salaryId) {
         salaryDAO.deleteById(salaryId);
+    }
+
+    public Optional<Salary> getSalaryById(int salaryId) {
+       return salaryDAO.findById(salaryId);
     }
 }

@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HealthInsuranceService" />
+        <module name="ServiceRegistry" />
         <module name="SalaryService" />
         <module name="EmployeeService" />
-        <module name="HealthInsuranceService" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="EmployeeService" options="-parameters" />
       <module name="HealthInsuranceService" options="-parameters" />
       <module name="SalaryService" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
     </option>
   </component>
 </project>
