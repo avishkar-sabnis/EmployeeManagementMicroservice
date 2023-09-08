@@ -58,6 +58,14 @@ public class EmployeeService {
 
     }
 
+
+    public String getEmployeeNameById(int employeeId){
+        Employee employees ;
+        employees = employeeDAO.findById(employeeId).get();
+
+        return employees.getEmployeeName();
+    }
+
     public void deleteEmployee(int employeeId) {
 
          employeeDAO.deleteById(employeeId);

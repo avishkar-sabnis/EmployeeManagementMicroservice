@@ -39,8 +39,6 @@ Q.idea/sonarlint/securityhotspotstore/c/9/c99b0b31ab9a0ba0f117189e246fbb91d62c20
 Q.idea/sonarlint/securityhotspotstore/f/f/ffdf1b1a70e3342e6efabcec0582ffd4dde34f09,8\a\8a24423768707be331bd9a07e78d410bf97178f8
 Å
 Q.idea/sonarlint/securityhotspotstore/f/f/ff6fbdc6ecfc283408c6790bf6d42f3ca2884b17,0\1\01949fea1d7f049fb95f2d9c5d6451a0fdd025e3
-|
-LSalaryService/src/main/java/com/EmployeeManagement/SalaryService/Salary.java,1\4\14e9f8babf190e31c53174240131485c964de414
 
 OSalaryService/src/main/java/com/EmployeeManagement/SalaryService/SalaryDAO.java,9\7\978f780665776496ca6b0c473ef57dfb272d3bbe
 î
@@ -49,3 +47,17 @@ G
 ServiceRegistry/pom.xml,b\2\b2f5299d90119fb6177af96297562a7d5fe130f3
 Æ
 ~HealthInsuranceService/src/test/java/com/EmployeeManagement/HealthInsuranceService/HealthInsuranceServiceApplicationTests.java,6\f\6f8e5a0548c5f180c3276d2e486bc6838089bfd2
+Ç
+REmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Employee.java,a\3\a353c838c73e48b1a76c1c0fb6e3ea93e8cd0ea3
+î
+dHealthInsuranceService/src/main/java/com/EmployeeManagement/HealthInsuranceService/InsuranceDAO.java,1\0\10da6098842a729701c6277c0b734783e58f22a4
+ô
+iEmployeeService/src/test/java/com/EmployeeManagement/EmployeeService/EmployeeServiceApplicationTests.java,a\4\a43739da792f824b622df1c4f69eeed22d9bf7b6
+G
+EmployeeService/pom.xml,5\6\56f9f2948d0ecf0151a9ff938c4e176dd32a1856
+É
+SEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Insurance.java,8\d\8d707631a45152a23ab386d23100e5f866e026ab
+ê
+`HealthInsuranceService/src/main/java/com/EmployeeManagement/HealthInsuranceService/Employee.java,4\f\4f18e1a2c505a7d906d3482d9ac887dd914d367e
+Ä
+PEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Salary.java,3\1\316129d5babd0ec87b9f8a9b612c5d9bed70d32f

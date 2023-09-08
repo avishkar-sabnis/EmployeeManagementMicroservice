@@ -27,15 +27,10 @@ public class InsuranceService {
     public Insurance getInsuranceById(int insuranceId) {
 
 
-        //Employee employee = feignConfigEmployee.getEmployeeById(insuranceId);
+        String employee = feignConfigEmployee.getEmployeeNameById(insuranceId);
         Insurance insurance = insuranceDAO.findById(insuranceId).get();
-        //insurance.setEmployeeName(employee.getEmployeeName());
+        insurance.setEmployeeName(employee);
         return insurance;
-
-
-
-
-
 
     }
 

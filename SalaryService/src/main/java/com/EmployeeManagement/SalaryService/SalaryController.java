@@ -24,7 +24,7 @@ public class SalaryController {
     }
 
     @GetMapping("/getSalaryById/{salaryId}")
-    public Optional<Salary> getSalaryById(@PathVariable int salaryId){
+    public Salary getSalaryById(@PathVariable int salaryId){
         return salaryService.getSalaryById(salaryId);
     }
 

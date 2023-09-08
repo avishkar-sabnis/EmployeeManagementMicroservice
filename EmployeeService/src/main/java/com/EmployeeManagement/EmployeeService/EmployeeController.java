@@ -26,6 +26,11 @@ public class EmployeeController {
         return employeeService.getEmployeeById(employeeId);
     }
 
+    @GetMapping("/getEmployeeNameById/{employeeId}")
+    public String getEmployeeNameById(@PathVariable int employeeId){
+        return employeeService.getEmployeeNameById(employeeId);
+    }
+
     @PutMapping("/updateEmployeeDetails/{employeeId}")
     public Employee updateEmployeeDetails(@RequestBody Employee newEmployeeData, @PathVariable int employeeId){
         return employeeService.updateEmployeeDetails(newEmployeeData,employeeId);
