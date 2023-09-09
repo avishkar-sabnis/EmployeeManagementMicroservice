@@ -9,5 +9,5 @@ eureka:
     hostname: localhost
 
 spring:
-    application:
-    name: emplo
+  application:
+    name: Udemy
