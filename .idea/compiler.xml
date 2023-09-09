@@ -9,13 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HealthInsuranceService" />
         <module name="ServiceRegistry" />
+        <module name="ConfigServer" />
         <module name="SalaryService" />
         <module name="EmployeeService" />
+        <module name="API-Gateway-For-EmployeeManagementMicroservice" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API-Gateway-For-EmployeeManagementMicroservice" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="EmployeeService" options="-parameters" />
       <module name="HealthInsuranceService" options="-parameters" />
       <module name="SalaryService" options="-parameters" />

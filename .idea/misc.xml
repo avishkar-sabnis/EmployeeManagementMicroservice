@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/HealthInsuranceService/pom.xml" />
         <option value="$PROJECT_DIR$/SalaryService/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceRegistry/pom.xml" />
+        <option value="$PROJECT_DIR$/API-Gateway-For-EmployeeManagementMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
       </list>
     </option>
   </component>

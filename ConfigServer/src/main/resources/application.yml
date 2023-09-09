@@ -1,0 +1,13 @@
+server:
+  port: 8185
+
+
+spring:
+  application:
+    name: Config-Server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/avishkar-sabnis/EmployeeManagementMicroservice/tree/master
