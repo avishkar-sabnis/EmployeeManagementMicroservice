@@ -10,8 +10,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/avishkar-sabnis/EmployeeManagementMicroservice/blob/master/ConfigServer/src/main/resources
-
+          uri: https://github.com/avishkar-sabnis/EmployeeManagementMicroservice/
+          clone-on-start: true
 
 eureka:
   client:

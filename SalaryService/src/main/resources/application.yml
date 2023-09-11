@@ -15,6 +15,10 @@ spring:
       ddl-auto: update
     database: MYSQL
 
+feign:
+  circuitbreaker:
+    enabled: true
+
 eureka:
   client:
     fetch-registry: true

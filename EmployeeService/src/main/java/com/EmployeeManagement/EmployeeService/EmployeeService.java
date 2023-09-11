@@ -57,8 +57,6 @@ public class EmployeeService {
         }
 
     }
-
-
     public String getEmployeeNameById(int employeeId){
         Employee employees ;
         employees = employeeDAO.findById(employeeId).get();
