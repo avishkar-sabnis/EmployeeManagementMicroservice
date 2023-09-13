@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class EmployeeService {
@@ -28,7 +28,17 @@ public class EmployeeService {
     }
 
     public Iterable<Employee> getAllEmployees() {
-        return employeeDAO.findAll();
+
+
+        List list = new ArrayList<>();
+        long countOfEmployees = getAllEmployeesIds();
+        int count = (int) countOfEmployees;
+        for(int i=1;i<=count;i++){
+
+            list .add(getEmployeeById(i));
+        }
+        return list;
+
     }
 
     public Employee getEmployeeById(int employeeId) {
@@ -67,5 +77,10 @@ public class EmployeeService {
     public void deleteEmployee(int employeeId) {
 
          employeeDAO.deleteById(employeeId);
+    }
+
+
+    public long getAllEmployeesIds(){
+        return employeeDAO.findByemployeeNameIsNotNull().stream().count();
     }
 }

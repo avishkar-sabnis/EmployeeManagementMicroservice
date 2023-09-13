@@ -19,7 +19,7 @@ public class Employee {
     int EmployeeId;
 
     @Column(name = "EmployeeName")
-    String EmployeeName;
+    String employeeName;
 
     @Transient
     double EmployeeSalary;
@@ -29,9 +29,9 @@ public class Employee {
     @Column(name = "EmployeeDesignation")
     String EmployeeDesignation;
 
-    public Employee(int employeeId, String employeeName, double employeeSalary, double insurancePremium, String employeeDesignation) {
+    public Employee(int employeeId, String eemployeeName, double employeeSalary, double insurancePremium, String employeeDesignation) {
         EmployeeId = employeeId;
-        EmployeeName = employeeName;
+        employeeName = eemployeeName;
         EmployeeSalary = employeeSalary;
         InsurancePremium = insurancePremium;
         EmployeeDesignation = employeeDesignation;

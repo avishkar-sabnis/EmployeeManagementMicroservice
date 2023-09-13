@@ -1,13 +1,11 @@
 package com.EmployeeManagement.EmployeeService;
 
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/EmployeeManagement")
@@ -24,7 +22,6 @@ public class EmployeeController {
 
 
     @GetMapping("/ShowALlEmployees")
-
     public Iterable<Employee> getAllEmployees(){
 
         return employeeService.getAllEmployees();
@@ -68,7 +65,9 @@ public class EmployeeController {
         employeeService.deleteEmployee(employeeId);
     }
 
-
-
+    @GetMapping("/findByNamesNotNull")
+    public long getAllEmployeesIds(){
+        return employeeService.getAllEmployeesIds();
+    }
 
 }

@@ -37,8 +37,6 @@ Q.idea/sonarlint/securityhotspotstore/c/9/c99b0b31ab9a0ba0f117189e246fbb91d62c20
 Q.idea/sonarlint/securityhotspotstore/f/f/ffdf1b1a70e3342e6efabcec0582ffd4dde34f09,8\a\8a24423768707be331bd9a07e78d410bf97178f8
 Å
 Q.idea/sonarlint/securityhotspotstore/f/f/ff6fbdc6ecfc283408c6790bf6d42f3ca2884b17,0\1\01949fea1d7f049fb95f2d9c5d6451a0fdd025e3
-Ö
-UEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/EmployeeDAO.java,5\b\5bd42404d371dfd137696cc4115205d13eeae514
 
 OSalaryService/src/main/java/com/EmployeeManagement/SalaryService/SalaryDAO.java,9\7\978f780665776496ca6b0c473ef57dfb272d3bbe
 Æ
@@ -51,8 +49,6 @@ dHealthInsuranceService/src/main/java/com/EmployeeManagement/HealthInsuranceServ
 iEmployeeService/src/test/java/com/EmployeeManagement/EmployeeService/EmployeeServiceApplicationTests.java,a\4\a43739da792f824b622df1c4f69eeed22d9bf7b6
 É
 SEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Insurance.java,8\d\8d707631a45152a23ab386d23100e5f866e026ab
-Ä
-PEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Salary.java,3\1\316129d5babd0ec87b9f8a9b612c5d9bed70d32f
 ©
 yHealthInsuranceService/src/main/java/com/EmployeeManagement/HealthInsuranceService/HealthInsuranceServiceApplication.java,0\c\0cee53542beaa35cda0106622630b7f141f2685b
 ë
@@ -63,8 +59,6 @@ PEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Config.jav
 LSalaryService/src/main/java/com/EmployeeManagement/SalaryService/Salary.java,1\4\14e9f8babf190e31c53174240131485c964de414
 E
 SalaryService/pom.xml,8\0\80ffe1be40ca0b6a6ea55d9bcc2a4c134c1a5382
-Ö
-UEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/FeignConfig.java,4\e\4e639b76467ccf618d60332120987b7d107924c8
 ~
 NSalaryService/src/main/java/com/EmployeeManagement/SalaryService/Employee.java,8\c\8ca9ccb380854fb00baa9088bbcce5466d407f7f
 ä
@@ -77,8 +71,6 @@ YSalaryService/src/main/java/com/EmployeeManagement/SalaryService/FeignConfigEmp
 kHealthInsuranceService/src/main/java/com/EmployeeManagement/HealthInsuranceService/FeignConfigEmployee.java,6\3\639caff162e330c825a2487be006be17c2144ccd
 ò
 hHealthInsuranceService/src/main/java/com/EmployeeManagement/HealthInsuranceService/InsuranceService.java,2\0\20d782695b22ca14865bc09035fa14a97ee4f251
-é
-^EmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/FeignConfigInsurance.java,7\f\7fc49b238fed463d96568de99336bf238a1f54e3
 É
 SSalaryService/src/main/java/com/EmployeeManagement/SalaryService/SalaryService.java,6\d\6d8dbada2ab105e722643d605174b866b303a476
 õ
@@ -101,8 +93,6 @@ G
 ServiceRegistry/pom.xml,b\2\b2f5299d90119fb6177af96297562a7d5fe130f3
 D
 application-prod.yml,c\2\c27f626e2aa674c40951b1a3a53702ccfbe0fb4f
-Ç
-REmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/Employee.java,a\3\a353c838c73e48b1a76c1c0fb6e3ea93e8cd0ea3
 î
 dEmployeeService/src/main/java/com/EmployeeManagement/EmployeeService/EmployeeServiceApplication.java,f\d\fdb215448cbf0a3afd8f8fc51ed6bde0e4d29464
 G
