@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«¯˜Ûüÿÿÿÿ
+o	java:S116"URename this field "EmployeeId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ãØ·øÿÿÿÿ
+q	java:S116"WRename this field "EmployeeName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õøà£ýÿÿÿÿ
+n	java:S116"YRename this field "EmployeeSalary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¡Âà
+p	java:S116"[Rename this field "InsurancePremium" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï£Èˆ
+x	java:S116"^Rename this field "EmployeeDesignation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐÿËÑüÿÿÿÿ

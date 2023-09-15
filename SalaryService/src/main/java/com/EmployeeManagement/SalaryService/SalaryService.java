@@ -5,6 +5,7 @@ import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -26,7 +27,7 @@ public class SalaryService {
         return salaryDAO.save(salary);
     }
 
-    public Iterable<Salary> getAllSalaries() {
+    public List<Salary> getAllSalaries() {
         return salaryDAO.findAll();
     }
 

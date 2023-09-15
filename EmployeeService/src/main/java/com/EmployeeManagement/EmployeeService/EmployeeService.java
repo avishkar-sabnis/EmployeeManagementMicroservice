@@ -1,7 +1,6 @@
 package com.EmployeeManagement.EmployeeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -22,12 +21,16 @@ public class EmployeeService {
     @Autowired
     RestTemplate restTemplate;
 
+    public EmployeeService(EmployeeDAO employeeDAO) {
+        this.employeeDAO = employeeDAO;
+    }
+
     public Employee createEmployee(Employee employee) {
         return employeeDAO.save(employee);
 
     }
 
-    public Iterable<Employee> getAllEmployees() {
+    public List<Employee> getAllEmployees() {
 
 
         List list = new ArrayList<>();
@@ -37,6 +40,7 @@ public class EmployeeService {
 
             list .add(getEmployeeById(i));
         }
+        System.out.println(list);
         return list;
 
     }
@@ -81,6 +85,7 @@ public class EmployeeService {
 
 
     public long getAllEmployeesIds(){
+        System.out.println(employeeDAO.findByemployeeNameIsNotNull().stream().count());
         return employeeDAO.findByemployeeNameIsNotNull().stream().count();
     }
 }

@@ -3,7 +3,7 @@ package com.EmployeeManagement.SalaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
+import java.util.List;
 
 @RestController
 @RequestMapping("/SalaryManagement")
@@ -19,7 +19,7 @@ public class SalaryController {
     }
 
     @GetMapping("/ShowALlSalaries")
-    public Iterable<Salary> getAllSalaries(){
+    public List<Salary> getAllSalaries(){
         return salaryService.getAllSalaries();
     }
 

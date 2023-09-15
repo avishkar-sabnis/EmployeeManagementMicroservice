@@ -11,7 +11,6 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @Table(name = "SalaryManagement")
 public class Salary {
 
@@ -21,6 +20,13 @@ public class Salary {
 
     @Transient
     String EmployeeName;
+
+    public Salary(int salaryId, String employeeName, double employeeSalary, double insurancePremium) {
+        this.salaryId = salaryId;
+        EmployeeName = employeeName;
+        EmployeeSalary = employeeSalary;
+        InsurancePremium = insurancePremium;
+    }
 
     @Column(name = "EmployeeSalary")
     double EmployeeSalary;
